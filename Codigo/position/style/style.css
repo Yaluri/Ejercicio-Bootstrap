@@ -1,0 +1,24 @@
+div {
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 5px;
+}
+
+/* .static {
+  border: 1px solid green;
+  left: 200px;
+} */
+
+/* .relative {
+  position: relative;
+  left: 200px;
+} */
+
+/* .absolute {
+  position: absolute;
+  top: 0px;
+} */
+
+/* .fixed {
+  position: fixed;
+} */

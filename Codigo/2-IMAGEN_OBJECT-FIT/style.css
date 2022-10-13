@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contenedor-imagen .ajuste {
+  width: 300px;
+  height: 200px;
+  border: solid;
+  object-fit: scale-down;
+}
+
+.contenedor-parrafo {
+  width: 300px;
+  height: 200px;
+  border: solid;
+  overflow: scroll;
+}

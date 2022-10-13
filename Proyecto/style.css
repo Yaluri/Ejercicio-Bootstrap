@@ -1,0 +1,24 @@
+.banner {
+   height: 35%; 
+   width: 100%; 
+   font-size: 32px; 
+   border-style: 4px;
+   background-color: rgb(161, 145, 145);
+   padding: 16px;
+}
+body {
+   background-color: aqua;
+   text-decoration-style: dotted;
+   font-style: italic;
+}
+
+span {
+   text-align: right;
+   size: 1px;
+   justify-content: space-between;
+   
+}
+
+h1 {
+   text-align: center;
+} 

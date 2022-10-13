@@ -1,0 +1,26 @@
+body {
+    color:red;
+    border:6px solid violet;
+}
+
+pre {
+    font-size: 36px;
+    border:1px solid;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: italic;
+}
+h2 {
+    font-family: Verdana, Tahoma, sans-serif ;
+    font-style: italic;
+    color:black;
+    border: 1px solid;
+}
+
+ol {
+    color: blue;
+    list-style-type: upper-roman;
+}
+

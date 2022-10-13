@@ -1,0 +1,27 @@
+/* lo siguiente coloca una imagen de fondo a toda la pagina */
+/* body {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+
+div {
+  background-color: red;
+}
+
+span,
+img {
+  background-color: aqua;
+}
+
+.flotar-1 {
+  float: right;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.flotar-2 {
+  float: left;
+}

@@ -1,0 +1,51 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300;16..144,400&family=Qwitcher+Grypen:wght@400;700&display=swap"); */
+
+/* selector universal */
+
+/* * {
+  font-family: "Qwitcher Grypen", cursive;
+} */
+
+/* selector etiqueta */
+
+/* a {
+  text-decoration: none;
+} */
+
+/* selector id */
+
+/* #itemAncla {
+  text-decoration: none;
+} */
+
+/* selector clase */
+
+/* .parrafoColor {
+  color: red;
+} */
+
+/* selector varias etiquetas */
+
+/* p,
+h1,
+ul {
+  color: red;
+} */
+
+/* selector etiquetas anidadas */
+
+/* div > p.parrafoColor {
+  color: red;
+} */
+
+/* selector etiqueta con base en su clase */
+
+/* p.parrafoColor {
+  color: blue;
+} */
+
+/* selector atributos */
+
+/* [href] {
+  text-decoration: none;
+} */

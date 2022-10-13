@@ -1,0 +1,11 @@
+Auto Close Tag
+Beautify ( indentar código)
+Bracket Pair Colorizer 2
+Live Server
+Lorem ipsum
+Material Icon Theme
+
+
+http://desarrolloweb.dlsi.ua.es/libros/html-css/ejercicios
+
+https://www.w3schools.com/

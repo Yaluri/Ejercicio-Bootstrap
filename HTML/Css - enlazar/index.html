@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enlazar css</title>
+
+    <!--METODO LINK (es la forma que utilizaremos) Mediante la vinculación con archivos externos-->
+    <link type="text/css" rel="stylesheet" href="./estilos/style.css" />
+
+    <!--Mediante las etiquetas style dentro del documento-->
+    <style>
+      h2 {
+        color: blue;
+        font-weight: bold;
+      }
+      pre {
+        background-color: violet;
+      }
+    </style>
+  </head>
+
+  <body>
+    <pre>
+        hay 3 maneras de implementar el estilo CSS a nuestros documentos HTML, 
+        todas son igual de eficientes solo que algunas son más cómodas que otras
+
+        <h2> Mediante la vinculación con archivos externos</h2>
+        La vinculación con archivos CSS externos, se hacen dentro de las etiquetas
+        head y con el elemento link del HTML.
+    </pre>
+    <pre>
+      <marquee direction="left" >Mediante las etiquetas style</marquee>
+        <h2> Mediante las etiquetas style dentro del documento</h2>
+        La segunda opción sería mediante las etiquetas style tambien 
+        dentro de las etiquetas HEAD
+    </pre>
+
+    <pre>
+      <marquee direction="right">OTRO METODO Como valor del atributo “style”</marquee>
+      <!--OTRO METODO Como valor del atributo “style”-->
+        <h2 style="color: red; font-size: 32px; font-weight: bold;"> Como valor del atributo “style” en el elemento del HTML</h2>
+        En HTML, la mayoría de etiquetas como son: h1, h2, h3, p, div, span, table, body,
+        input, entre otras, tienen diversos atributos entre los que existe uno que 
+        se llama style = “”, y dentro de las comillas dobles irá todo el código CSS.
+    </pre>
+
+    <br />
+    <br />
+    <br />
+    <pre>
+      Notese que en esta pagina coexisten los tres metodos para 
+      aplicar los estilos, y notese que el atributo color a los 
+      elementos h2 se le esta dando valor usando los tres metodos,
+      sin embargo el color azul que se le aplica con la etiqueta style,
+      no es tomado en cuenta y se le aplica el color negro especificado
+      en el metodo "link" a traves de la hoja de estilo; y el valor rojo dado
+      con el atributo style dentro del ultimo h2 se aplica con preferencia
+      de los otros dos metodos.
+      Por lo tanto existe un orden de preferencia al aplicar los estilos
+      segun el metod utilizado, siendo el prioritario el atributo style
+      dentro de la etiqueta de apertura. Sin embargo lo recomendado es
+      utilizar solo un metodo "link" a traves de la hoja de estilo.
+
+
+    </pre>
+  </body>
+</html>

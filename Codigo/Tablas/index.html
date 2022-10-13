@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>TABLAS EN HTML</h1>
+    </header>
+    <pre>
+        Una tabla en un conjunto de celdas organizadas 
+        dentro de las cuales podemos alojar distintos 
+        contenidos.
+        las tablas son definidas por 
+                                    las etiquetas TABLE 
+                                    y su cierre
+        
+ .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+ | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+ | |  _________   | || |      __      | || |   ______     | || |   _____      | || |      __      | || |    _______   | |
+ | | |  _   _  |  | || |     /  \     | || |  |_   _ \    | || |  |_   _|     | || |     /  \     | || |   /  ___  |  | |
+ | | |_/ | | \_|  | || |    / /\ \    | || |    | |_) |   | || |    | |       | || |    / /\ \    | || |  |  (__ \_|  | |
+ | |     | |      | || |   / ____ \   | || |    |  __'.   | || |    | |   _   | || |   / ____ \   | || |   '.___`-.   | |
+ | |    _| |_     | || | _/ /    \ \_ | || |   _| |__) |  | || |   _| |__/ |  | || | _/ /    \ \_ | || |  |`\____) |  | |
+ | |   |_____|    | || ||____|  |____|| || |  |_______/   | || |  |________|  | || ||____|  |____|| || |  |_______.'  | |
+ | |              | || |              | || |              | || |              | || |              | || |              | |
+ | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+ 
+    </pre>
+
+    <main>
+        <div>
+        <table>
+            <tr> <!--esto es una fila, es definida por la etiqueta tr y su cierre: /tr -->
+                <th>Nombre</th> <!--esto es una celda cabecera, es definida por la etiqueta th y su cierre: /th -->
+                <th>Apellidos</th>
+                <th>Profesión</th>
+            </tr>
+            <tr>
+                <td>Juan</td> <!--esto es una celda comun, es definida por la etiqueta td y su cierre-->
+                <td>Pérez</td>
+                <td>Desarrollador Web</td>
+            </tr>
+            <tr>
+                <td>María</td>
+                <td>García</td>
+                <td>Analista de sistema</td>
+            </tr>              
+        </table>
+        <br>
+        <br>
+    </div>
+    
+     <!--   <div>
+        <p>
+            <strong>ATRIBUTOS PARA TABLAS</strong>
+        </p>
+        <br>
+        <p>
+            <strong>border</strong>
+            <br>
+            Establece el ancho de la borde de la tabla.
+        </p>
+        <p>
+            <strong>cellpadding</strong>
+            <br>
+            Establece el espacio entre las celdas de la tabla.
+        </p>
+        <p>
+            <strong>cellspacing</strong>
+            <br>
+            Establece el espacio entre las filas de la tabla.
+        </p>
+        <p>
+            <strong>width</strong>
+            <br>
+            Establece el ancho de la tabla.
+        </p>
+        <p>
+            <strong>height</strong>
+            <br>
+            Establece el alto de la tabla.
+        </p>
+        <p>
+            <strong>bgcolor</strong>
+            <br>
+            Establece el color de fondo de la tabla.
+        </p>
+        <p>
+            <strong>align</strong>
+            <br>
+            Establece el alineamiento de la tabla.
+        </p>
+        <p>
+            <strong>valign</strong>
+            <br>
+            Establece el alineamiento vertical de la tabla.
+        </p>
+        <br>
+    </div> -->
+    <!-- <div>
+        <p>
+            <strong>EJEMPLOS DE USO ATRIBUTOS DE TABLAS</strong>
+        </p>
+        <br>
+        <p>
+            <strong>ATRIBUTO: border</strong>
+            <br>
+            <table border="1">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: cellpadding</strong>
+            <br>
+            <table cellpadding="5">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: cellspacing</strong>
+            <br>
+            <table cellspacing="5">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: width</strong>
+            <br>
+            <table width="800px">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: height</strong>
+            <br>
+            <table height="200px">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: bgcolor</strong>
+            <br>
+            <table bgcolor="yellow">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: align</strong>
+            <br>
+            <table align="center">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: valign</strong>
+            <br>
+            <table valign="middle">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <br>
+        <br>
+    </div>  -->  
+    
+    <!-- <div>
+        <p>
+            <strong>ATRIBUTOS PARA FILAS</strong>
+        </p>
+        <br>
+        <p>
+            <strong>ATRIBUTO: bgcolor</strong>
+            <br>
+            <table border="1">
+                <tr bgcolor="yellow">
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: align</strong>
+            <br>
+            <table border="1">
+                <tr align="center">
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: valign</strong>
+            <br>
+            <table border="1">
+                <tr valign="middle">
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: width</strong>
+            <br>
+            <table border="1" >
+                <tr>
+                    <th width="800px">Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: height</strong>
+            <br>
+            <table border="1" >
+                <tr height="200px">
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: cellpadding</strong>
+            <br>
+            <table border="1" cellpadding="100px">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        <p>
+            <strong>ATRIBUTO: cellspacing</strong>
+            <br>
+            <table border="1" cellspacing="10px">
+                <tr >
+                    <th >Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+
+    </div> -->
+
+   <!--  <div>
+        <strong>ATRIBUTOS DE CELDAS</strong>
+        <br>
+        <p>
+            <strong>ATRIBUTO: bgcolor</strong>
+            <br>
+            <table border="1">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Profesión</th>
+                </tr>
+                <tr >
+                    <td bgcolor="yellow">Juan</td>
+                    <td>Pérez</td>
+                    <td>Desarrollador Web</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Analista de sistema</td>
+                </tr>
+            </table>
+        </p>
+        
+    </div> -->
+
+</body>
+</html>
